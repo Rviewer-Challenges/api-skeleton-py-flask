@@ -2,7 +2,7 @@
 name = "api-skeleton-py-flask"
 version = "0.1.0"
 description = ""
-authors = ["rviewer <hello@rviewer.io>"]
+authors = ["rviewer-team <dev@rviewer.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
