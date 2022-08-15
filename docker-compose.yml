@@ -23,8 +23,6 @@ services:
         restart: on-failure
         volumes:
             - skeleton-py-flask-api-postgres-volume:/var/lib/postgresql/data
-        ports:
-            - "5432:5432"
         env_file:
             - dev.env
         networks:
