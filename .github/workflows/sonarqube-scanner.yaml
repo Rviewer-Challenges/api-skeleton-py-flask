@@ -32,7 +32,7 @@ jobs:
         - secrets-gate
     if: ${{ needs.secrets-gate.outputs.ok == 'true' }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Run testing suite
         run: make coverage
