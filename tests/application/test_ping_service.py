@@ -1,7 +1,7 @@
 from unittest import TestCase
 
 from api.application.ping_service import PingService
-from api.tests import database
+from tests import database
 
 
 class PingServiceTest(TestCase):
